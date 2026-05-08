@@ -26,4 +26,6 @@ export type Mood =
 export interface MoodPalette {
   colors: string[];
   background: string;
+  title: string;
+  description: string;
 }
